@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         //フォントをAmericanTypewriterに変更
         myTextView.font = UIFont(name: "AmericanTypewriter", size: 20)
         
-        //TextViewを中央寄せ
         
         
         //文字の量に合わせて変化していくように設定
@@ -32,6 +31,8 @@ class ViewController: UIViewController {
         //文字寄せを中央寄せに変更
         myTextView.textAlignment = NSTextAlignment.center
         
+        
+        print(myTextView.text)
     }
 
     @IBAction func tapClose(_ sender: UIButton) {
