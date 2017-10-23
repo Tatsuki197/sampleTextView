@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+var hoge:Int = "hoge";
 class ViewController: UIViewController {
 
     @IBOutlet weak var myTextView: UITextView!
